@@ -1,0 +1,366 @@
+
+
+/* ============================================================================================ */
+:root {
+   --oranye :  #FC8047;
+   --hitam : #262627;
+   --putih: #ffffff;
+   --biru:#5CBCD2;
+   width: 100%;
+   width: 100vw;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   /*overflow-x: hidden;*/ 
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+body{
+    width: 100%;
+    width: 100vw;
+    height: 2200px;
+    background:var(--putih);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+#navbar{
+    position: relative;
+    width: 100%;
+    background:var(--putih);
+    box-shadow: 0px 2px 2px 2px rgba(224, 224, 224, 0.25);
+
+    
+}
+
+
+a.nav-link,button.nav-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #262627;
+    transition:all 0.5s;
+}
+
+a.nav-link:hover{
+    color:var(--biru);
+    transition:all 0.5s;
+}
+
+    
+
+button#tbl-masuk{
+    color : var(--oranye);
+    border-color: var(--oranye);
+    transition:all 0.5s;
+}
+
+button#tbl-masuk:hover{
+    color : var(--putih);
+    background: var(--oranye);
+    transition:all 0.5s;
+}
+
+button#tbl-daftar{
+    color : var(--putih);
+    background: var(--oranye);
+    border-color: var(--oranye);
+    transition:all 0.5s;
+}
+
+button#tbl-daftar:hover{
+    color : var(--oranye);
+    background: var(--hitam);
+    border-color: var(--oranye);
+    transition:all 0.5s;
+}
+
+#logo-container{
+    position: relative;
+    width: 149px;
+    height: 32px;
+    top: calc(100%-50%);
+    padding-top:0;
+    padding-bottom:0;
+    
+}
+
+#logo-container > img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#menu-kanan{
+    flex-direction: row;
+    margin-right: 5%;
+}
+
+.menu-kanan-item{
+    padding-right:10%;
+    margin-right: 5%;
+}
+
+
+.mytoggler {
+    background-image: url("https://www.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png");
+  }
+  
+ .mytoggler {
+    border-color: #aaa;
+    border-top-width: 3px;
+  } 
+
+  #tbl-daftar{
+      border-radius: 3rem;
+  }
+
+
+  /*=================================================================================================*/
+
+  .fluid1{
+    position: absolute;  
+    background-size: cover;
+    width: calc(100vw - 4rem);
+    height: 22.6875rem;
+    left:4rem;
+    top:11.75rem;
+    z-index: -1;
+    overflow-x: hidden;
+    background-image:url("./assets/Vector23.png");
+    
+    }
+
+    
+
+  .fluid2{
+    width: 100vw;
+    height: 30.625rem;
+    position: absolute;
+    background-image:url("./assets/Vector22.png");
+    background-size: cover;
+  }
+
+  ul.breadcrumb {
+    top: 6rem; 
+    z-index: 1; 
+    position:absolute;  
+    padding: 1rem 2rem;
+    list-style: none;
+    background:transparent;
+   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-decoration: none;
+    
+  }  
+  ul.breadcrumb li {
+    display: inline;
+    font-weight: bold;
+    color: var(--oranye);
+  }
+
+  ul.breadcrumb li a {
+    color: #163F5B;
+    font-weight: normal;
+
+  }
+
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+
+
+  .row1{
+        color: var(--hitam);
+        max-width:100%;
+        width:93%;
+        margin-top: 3rem;    
+    }
+
+    .jumbotron{
+        background: transparent;
+    }
+
+
+  h1#ayokolaborasi{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height:4.5rem;
+    
+}
+
+  p#ayokolaborasi-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+  }
+
+  #img-kolab-container{
+   /**/
+  }
+  #img-kolab{
+      
+  }
+
+    /*======================================blok1===========================================================*/
+  
+  .block1-container{
+    margin-top:7.3rem;
+    margin-bottom:3rem; 
+    width: 78.75%;
+    color:var(--hitam);
+  }
+
+  .fluid3{
+    position: absolute;
+    width: 100vw;
+    height: 17.8125rem;
+    top: 36rem;
+    left: 0px;
+    background-size: contain;
+    background-image:url("./assets/Vector 12.png");
+    
+    }
+
+    .judul-block1{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.875rem;
+        line-height: 2.5625rem;
+    }
+
+  .lingkaran-v1{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #FAFAFA;
+    border-radius: 50%;
+    box-shadow: 0px 5px 25px rgba(15, 132, 159, 0.2);
+    margin-bottom: 1.5rem;
+  }
+
+  .icon-v1{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top:calc(50% - 50%/2)
+    }
+ 
+  .judul-v1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .text-v1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+
+
+  /*========================================blok 2=========================================================*/
+  
+  .block2-container{
+    margin-top:8rem;
+    margin-bottom:3rem; 
+    width: 78.75%;
+    color: var(--hitam);
+  }
+
+
+    .judul-block2{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.875rem;
+        line-height: 2.5625rem;
+    }
+
+    .blok2col{
+        border: 1px solid #E0E0E0;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+
+  .icon-v2{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.165rem;
+    margin-bottom: 1.165rem;
+    }
+ 
+  .judul-v2{
+    text-align: center;  
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+  }
+
+  .text-v2{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+
+  /*========================================form=========================================================*/
+  
+  .blockform-container{
+    margin-top:8rem;
+    margin-bottom:3rem; 
+    width: 78.75%;
+  }
+  
+  #hr-form{
+        height: 7px;
+        opacity: 0.2;
+        border-top: 1px solid #000000;
+        }
+
+  .form1-label{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: var(--hitam);
+  }
+
+  #form1-submit-btn{
+      border-radius: 1.5rem;
+      background-color: var(--oranye);
+      border-color: var(--oranye);
+  }
+
+  #form1-submit-btn:hover{
+    border-color: var(--hitam);
+    }
+   .text-box{
+       border: 1px solid var(--hitam);
+       border-radius: 5px;
+   } 
+  .error{
+      color:darkred;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 0.7rem;
+      line-height: 0.5rem;
+      padding-left: 1rem;
+  }  
